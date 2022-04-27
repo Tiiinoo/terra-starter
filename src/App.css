@@ -27,13 +27,12 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: white;
 }
 
 .header-titles {
     color: white;
-    line-height: 20px;
+    line-height: 16px;
     text-align: center;
     cursor: pointer;
 }
@@ -100,8 +99,9 @@ span {
 
 .connect-wallet-div {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 15px;
 }
 
 .connect-wallet-img {
@@ -129,7 +129,11 @@ span {
 }
 
 .item-text {
-    line-height: 3;
+    line-height: 2;
+}
+
+.dance-gif {
+	max-height: 280px;
 }
 
 .item-text:hover {
@@ -142,16 +146,21 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 80vh;
+		min-height: 80vh;
+		margin-top: 30px;
 }
 
 .score{
     padding: 10px 0;
 }
 
+.help-text{
+	margin-top: 3%;
+}
+
 .help{
-    padding: 10px 0;
-    font-size: 20px;
+		padding: 10px 0;
+    font-size: 18px;
 }
 
 .play-container {
@@ -169,7 +178,7 @@ span {
     margin: 20px;
 }
 
-#target{
+#target, #target1, #target2{
     cursor: pointer;
     position: fixed;
     z-index: 10;
@@ -183,14 +192,18 @@ span {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    height: 60px;
+    height: 100px;
+}
+
+#target1, #target2 {
+	height: 180px;
 }
 
 .set-score-btn {
     margin-top: 50px;
 }
 
-#marine-img {
+#dokween-img {
     position: absolute;
     top: 80%;
     left: 50%;
