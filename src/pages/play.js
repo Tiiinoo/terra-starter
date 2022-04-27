@@ -112,7 +112,7 @@ const Play = () => {
       ) : (
         <div className="game-container">
           <img src={"algo.png"} id="target" alt="Target" style={{ ...targetPosition }} onClick={handleClick} />
-					<img src={"fudder1.png"} id="target1" alt="Target" style={{ ...targetPosition1 }} onClick={handleClick1} />
+					<img src={"./fudder1.png"} id="target1" alt="Target" style={{ ...targetPosition1 }} onClick={handleClick1} />
 					<img src={"fudder2.png"} id="target2" alt="Target" style={{ ...targetPosition2 }} onClick={handleClick2} />
           <img src="DoKween.png" id="dokween-img" alt="Do Kween" />
         </div>
